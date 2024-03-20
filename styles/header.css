@@ -1,0 +1,165 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../assets/images/backgraund.webp) center/cover no-repeat;
+	width: 100%;
+	height: 1080px;
+}
+
+.header__logo-icon {
+	width: 60px;
+	height: 63px;
+}
+
+.header__wrapper {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 35px 0 260px 0;
+
+}
+
+.header__nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 185px;
+	gap: 45px;
+}
+
+.header__nav-link {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--color-white);
+	position: relative;
+}
+
+.header__nav-link::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	left: 0;
+	right: 100%;
+	bottom: -10px;
+	background-color: var(--color-green-white);
+	transition: right .22s;
+}
+
+.header__nav-link:hover::after {
+	right: 0;
+}
+
+.header__title {
+	display: flex;;
+	justify-content: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 200px;
+	font-weight: 700;
+	color: #0D302C;
+}
+
+.header__description {
+	display: flex;
+	justify-content: center;
+	font-family: var(--font-roboto);
+	font-size: 24px;
+	font-weight: 400;
+	color: #000;
+	padding: 0 0 315px 0;
+
+}
+
+.header__icon-board  {
+	width: 20px;
+	height: 68px;
+	margin: 0 0 0 600px;
+}
+
+@media (max-width: 968px) {
+	
+.header__nav-list {
+padding-left: 30px;
+	}
+}
+
+@media (max-width: 968px) {
+	.header__nav-list {
+	padding-left: 30px;
+		}
+	}
+
+	@media (max-width: 810px) {
+	.header__nav-link {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.header__title {
+	font-size: 150px;
+}
+
+.header__nav-list {
+gap: 30px;
+}
+
+.header__wrapper {
+	padding: 0px 0 200px 0;
+}
+}
+
+@media (max-width: 580px) {
+	.header {
+
+		height: 700px;
+	}
+
+	.header__nav-list {
+		display: none;
+			}
+
+			.header__logo-icon {
+				display: none;
+			}
+
+			.header__wrapper {
+				padding: 0px 0 0px 0;
+			}
+
+			.header__title {
+				font-size: 100px;
+			}
+
+			.header__description {
+		
+				padding: 0 0 200px 0;
+			
+			}
+		}
+
+		@media (max-width: 495px) {
+			.header__description {
+			
+				font-size: 18px;
+		
+			
+			}
+		}
+
+		@media (max-width: 350px) {
+			.header__title {
+				font-size: 80px;
+			}
+
+			.header__description {
+			
+				font-size: 16px;
+		
+			
+			}
+		}
+
+
+		

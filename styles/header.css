@@ -13,7 +13,7 @@
 }
 
 .header__wrapper {
-	width: 1200px;
+	max-width: 1200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -53,7 +53,8 @@
 }
 
 .header__title {
-	display: flex;;
+	display: flex;
+
 	justify-content: center;
 	font-family: "Raleway", sans-serif;
 	font-size: 200px;
@@ -68,98 +69,72 @@
 	font-size: 24px;
 	font-weight: 400;
 	color: #000;
-	padding: 0 0 315px 0;
+	padding: 0 0 200px 0;
 
 }
 
-.header__icon-board  {
-	width: 20px;
-	height: 68px;
-	margin: 0 0 0 600px;
+.header__img-board {
+	display: flex;
+	margin: 0 auto;
 }
 
-@media (max-width: 968px) {
-	
-.header__nav-list {
-padding-left: 30px;
-	}
-}
-
-@media (max-width: 968px) {
+@media (max-width: 1000px) {
 	.header__nav-list {
-	padding-left: 30px;
-		}
+
+		padding-left: 50px;
+
+	}
+}
+
+@media (max-width: 860px) {
+	.header {
+		padding: 0;
+		height: 850px;
 	}
 
-	@media (max-width: 810px) {
+	.header__wrapper {
+		padding: 0px 0 200px 0;
+	}
+
+	.header__nav-list {
+		gap: 25px;
+	}
+
 	.header__nav-link {
-	font-size: 16px;
-	font-weight: 400;
+		font-size: 16px;
+	}
+
+	.header__title {
+		font-size: 100px;
+	}
 }
 
-.header__title {
-	font-size: 150px;
+@media (max-width: 600px) {
+	.header__wrapper {
+		justify-content: start;
+		padding: 0px 0 150px 20px;
+	}
+
+	.header__nav-list {
+	display: none;
+	}
 }
 
-.header__nav-list {
-gap: 30px;
-}
-
-.header__wrapper {
-	padding: 0px 0 200px 0;
-}
-}
-
-@media (max-width: 580px) {
+@media (max-width: 460px) {
 	.header {
-
 		height: 700px;
 	}
 
-	.header__nav-list {
-		display: none;
-			}
+	.header__wrapper {
+	
+		padding: 0px 0 100px 20px;
+	}
 
-			.header__logo-icon {
-				display: none;
-			}
+	.header__title {
+		font-size: 80px;
+	}
 
-			.header__wrapper {
-				padding: 0px 0 0px 0;
-			}
-
-			.header__title {
-				font-size: 100px;
-			}
-
-			.header__description {
-		
-				padding: 0 0 200px 0;
-			
-			}
-		}
-
-		@media (max-width: 495px) {
-			.header__description {
-			
-				font-size: 18px;
-		
-			
-			}
-		}
-
-		@media (max-width: 350px) {
-			.header__title {
-				font-size: 80px;
-			}
-
-			.header__description {
-			
-				font-size: 16px;
-		
-			
-			}
-		}
-
-
-		
+	.header__description {
+	font-size: 16px;
+	}
+} 

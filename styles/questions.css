@@ -1,0 +1,74 @@
+.questions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+
+}
+
+.questions__I-will {
+	width: 823px;
+	height: 132px;
+	font-family: Bitter;
+	font-weight: 600;
+	font-size: 55px;
+	text-align: center;
+	padding: 0 0 36px 0;
+}
+
+.questions__number {
+	width: 161px;
+	height: 34px;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.questions__email {
+	width: 208px;
+	height: 34px;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.questions__icon {
+	padding: 0 0 36px 0;
+}
+
+.questions__btn {
+	padding: 0 0 80px 0;
+}
+
+.question__button {
+	width: 240px;
+	height: 45px;
+	font-family: Bitter;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+.question__button:hover {
+	color: brown;
+
+}
+
+hr {
+	margin: 0 0 60px 0;
+}
+
+.qestions__later {
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	padding: 0 0 10px 0;
+
+}

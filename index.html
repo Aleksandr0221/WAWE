@@ -4,51 +4,217 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="/assets/icons/favicon-16x16.png" type="image/x-icon">
-<link rel="stylesheet" href="index.css">
-	<title>WOWE</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" href="./assets/icon/favicon.png" type="image/png">
+	<title>Estate</title>
 </head>
+
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="header__wrapper">
-			<img src="./assets/images/лого (2).png" alt="logo" class="header__logo-icion">
-		<!-- <svg class="header__logo-icon">
-			<use  href="/styles/sprite.svg#logo-icon"></use>
-		</svg> -->
-
-		<nav class="header__nav">
-			<ul class="header__nav-list">
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">О нас</a>
-				</li>
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">Услуги</a>
-				</li>
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">Стоимость</a>
-				</li>
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">Блог</a>
-				</li>
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">Команда</a>
-				</li>
-				<li class="header__nav-item">
-					<a href="#" class="header__nav-link">Контакты</a>
-				</li>
-			</ul>
-		</nav>
+			<div class="header_logo">
+				<p>estate</p>
+				<nav class="header_nav">
+					<ul class="header_nav-list">
+						<li class="header_nav-item">
+							<a href="#catalog-id" class="header_nav-link">Каталог</a>
+						</li>
+						<li class="header_nav-item">
+							<a href="#services-id" class="header_nav-link">Услуги</a>
+						</li>
+						<li class="header_nav-item">
+							<a href="#info-id" class="header_nav-link">Обо мне</a>
+						</li>
+						<li class="header_nav-item">
+							<a href="#reviews-id" class="header_nav-link">Отзывы</a>
+						</li>
+						<li class="header_nav-item">
+							<a href="#qestions-id" class="header_nav-link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header_actions">
+					<button type="button" class="btn-header">Связаться со мной</button>
+				</div>
+			</div>
 		</div>
-		<h1 class="header__title">WAWE</h1>
-		<p class="header__description">Школа серфинга на канарских Островах</p>
-	<img src="./assets/images/board.png" alt="board" class="header__img-board">
-	</div>
 	</header>
+	<main>
+		<section class="hero">
+			<div class="container">
+				<div class="hero_icon-property">
+				<img class="icon-property" src="./assets/icon/bi_pin-map.png" alt="property">
+				<h5 class="city">Берлин, Германия</h5>
+				</div>
+				<h1 class="hero_title">Агент недвижимости в Германии</h1>
+					<p class="hero_name">Меня зовут Мария и я ваша помощница по управлению недвижимости в ЕС</p>
+					<img class="photo" src="./assets/image/foto.png" alt="a photo of a girl">
+					<div class="hero_button">
+					<button class="btn-hero">Посмотреть услуги</button>
+				</div>
+				</div>
+
+				<div class="services" id="services-id">
+					<h4 class="services_mini-title">Услуги</h4>
+					<h2 class="services_work">Работаю в Берлине, но так же оказываю услуги в других странах Евросоюза</h2>
+					<h6 class="services_possibility">Есть возможность реализовать любую <br> услугу удалённо</h6>
+			</div>
+
+			<div class="search-sale">
+				<div class="one">
+				<h3 class="search">Поиск и подбор недвижимости</h3>
+				<p class="help">
+					Помогу вам в подборе жилья, офиса или коммерческой недвижимости, учитывая ваш бюджет, предпочтения и требования.
+				</p>
+			</div>
+			<div class="two">
+				<h3 class="purchase">Покупка и продажа недвижимости:</h3>
+				<p class="sale">
+					Помогу с покупкой или продажей недвижимости, включая поиск покупателей или продавцов, оценку рыночной стоимости недвижимости, заключение договоров и проведение сделок.
+				</p>
+			</div>
+			</div>
+
+			<div class="rental-management">
+				<div class="one">
+				<h3 class="rental">Аренда недвижимости:</h3>
+				<p class="conclusion">
+					Помогу вам с арендой недвижимости, включая поиск объектов, заключение договоров и обслуживание договоров аренды.
+				</p>
+			</div>
+			<div class="two">
+				<h3 class="management">Управление недвижимостью:</h3>
+				<p class="control">
+					Помогу вам с управлением и обслуживанием недвижимости, включая контроль и уход за недвижимостью, ремонт и обслуживание, даже если вы далеко от своей собственности
+				</p>
+			</div>
+			</div>
+
+			<div class="consultation-mortgage">
+				<div class="one">
+				<h3 class="consultation">Консультации и советы:</h3>
+				<p class="advice">
+					Предоставлю клиенту консультации и советы по вопросам недвижимости, включая юридические, финансовые и налоговые вопросы.
+				</p>
+			</div>
+			<div class="two">
+				<h3 class="mortgage">Ипотечные услуги:</h3>
+				<p class="credit">
+					Помогу  с получением ипотеки на покупку недвижимости, включая поиск и выбор лучшего кредитного предложения, оформление документов и т.д.
+				</p>
+			</div>
+			</div>
+
+			<div class="work-documents">
+				<div class="one">
+				<h3 class="work">Работа с документами</h3>
+				<p class="documents">
+					Сопровожу вас по всем немецким государственным структурам, чтобы вы получили все необходимые документы для своей собственности. 
+				</p>
+			</div>
+		</div>
+
+			<div class="services-button">
+				<button type="button" class="btn-services">Записаться на консультацию</button>
+			</div>
+			</section>
+
+			<section class="catalog" id="catalog-id">
+				<div class="container">
+					<h4 class="catalog__title">каталог недвижимости</h4>
+					<h2 class="catalog__sub-title">Уникальные предложения для жизни и инвестиций</h2>
+					<div class="btn-catalog">
+						<button type="button" class="catalog__btn-purchase">Покупка</button>
+						<button type="button" class="catalog__btn-rent">Аренда</button>
+					</div>
+					<div class="catalog__image">
+						<div class="catalog__image-one">
+							<img class="catalog__house-one" src="/assets/image/hause-1.png" alt="villa">
+							<h4 class="catalog__min-title">Роскошная  вилла </h4>
+							<p class="catalog__description">Германия.Франкфурт на Майне</p>
+							<h6 class="catalog__litl-title">Пентхаус&nbsp;&nbsp; 2023 &nbsp;&nbsp;&nbsp;316 м. кв.</h6>
+						</div>
+						<div class="catalog__image-two">
+							<img class="catalog__house-two" src="/assets/image/house-2.png" alt="villa">
+							<h4 class="catalog__min-title">Мансардная квартира </h4>
+							<p class="catalog__description">Германия. Берлин. Шарлоттенбург</p>
+							<h6 class="catalog__litl-title">Квартира &nbsp;&nbsp; 1992 &nbsp;&nbsp;&nbsp;180  кв2</h6>
+						</div>
+						<div class="catalog__image-three">
+							<img class="catalog__house-three" src="/assets/image/house-3.png" alt="villa">
+							<h4 class="catalog__min-title">2-комнатная</h4>
+							<p class="catalog__description">Берлин, Тиргартен</p>
+							<h6 class="catalog__litl-title">Квартира&nbsp;&nbsp; 2023 &nbsp;&nbsp;&nbsp;316 м. кв.</h6>
+						</div>
+					</div>
+					<button type="button" class="button-catalog">Перейти к каталогу</button>
+					</div>
+					</section>
+
+					<section class="city">
+						<img src="./assets/image/Germany_Houses_469678_1920x1200.jpg" alt="image city" class="city__image">
+					</section>
+
+					<section class="info" id="info-id">
+						<h2 class="info__title">Меня зовут Мария и я живу в Германии с 1992 года</h2>
+						<p class="info__description-help">Я помогаю людям из разных стран мира управлять своей недвижимостью в Германии и ЕС. За 30 лет жизни тут я обрела обширные знания о рынке недвижимости в Германии и могу предоставить вам профессиональные услуги по управлению и продаже недвижимости, а также рассказать все тонкости и ньюансы европейского рынка.</p>
+						<p class="info__description-superpower">Моя суперспособность - я умею слушать и понимать потребности своих клиентов, а также грамотно и четко объяснять все нюансы, связанные с недвижимостью в Германии и ЕС. Я всегда стремлюсь найти самые выгодные и оптимальные варианты для своих клиентов, всегда готова ответить на все вопросы, связанные с недвижимостью, и предоставляю оперативный “российский” сервис в европейский реалиях.</p>
+						<p class="info__description-deliver">Я всегда готова помочь, избавить от взаимодействия с бюрократическим европейским миром и сделать все возможное, чтобы вы были довольны своей собственностью. В подтверждении моих слов, прочитайте ниже отзывы клиентов.</p>
+
+						<img src="./assets/image/fotosale.webp" alt="image sale" class="info__image">
+
+						<div class="info__btn">
+							<button type="button" class="info__button">Получить консультацию</button>
+						</div>
+					</section>
+
+					<section class="reviews" id="reviews-id">
+						<h2 class="reviews__about-me">Вот что говорят обо мне клиенты</h2>
+						<div class="reviews__customers">
+							<div class="reviews__customers-wrapper-antonov">
+								<h2 class="reviews_name-antonov">Михаил Антонов</h2>
+								<img src="./assets/image/antonov.png" alt="avatar" class="reviews__image-antonov">
+								<img src="/assets/image/star.png" alt="star" class="reviews__star-antonov">
+								<p class="reviews__description">Огромная благодарность Марии 
+									за профессионализм при покупке квартиры. Дальнейших успехов, процветания, здоровья! Всего-всего-всего и много-много-много!!! </p>
+							</div>
+
+							<div class="reviews__customers-wrapper-loginov">
+								<h2 class="reviews_name-antonov">Андрей Логинов</h2>
+								<img src="./assets/image/loginov.png" alt="avatar" class="reviews__image-antonov">
+								<img src="/assets/image/star.png" alt="star" class="reviews__star-loginov">
+								<p class="reviews__description">Добрый день! Хочу поблагодарить Марину 
+									за проделанную работу в организации продажи комнаты в коммунальной квартире. </p>
+							</div>
+
+							<div class="reviews__customers-wrapper-petrova">
+								<h2 class="reviews_name-antonov">Анна Петрова</h2>
+								<img src="./assets/image/petrova.png" alt="avatar" class="reviews__image-petrova">
+								<img src="/assets/image/star.png" alt="star" class="reviews__star-petrova">
+								<p class="reviews__description">Добрый день. Выражаем огромную благодарностьМариии за проделанную работу в поиске квартиры.  </p>
+							</div>
+						</div>
+					</section>
+				</main>
+
+				<footer class="questions" id="qestions-id">
+					<h2 class="questions__I-will">Есть вопросы?
+						С радостью на них отвечу!</h2>
+						<p class="questions__number">+1234567890</p>
+						<p class="questions__email">mail@estate.com</p>
+						<div class="questions__icon">
+							<img src="./assets/image/ic_baseline-whatsapp.png" alt="icon whatsapp" class="questions__icon-whatsapp">
+							<img src="./assets/image/ic_baseline-telegram.png" alt="icon telegram" class="questions__icon-telegram">
+						</div>
+						<div class="questions__btn">
+							<button class="question__button">Заказать обратный звонок</button>
+						</div>
+						<!-- <div class="questions__line"></div> -->
+						<hr align="center" width="90%" size="2" color="black" />
+
+						<p class="qestions__later">(c) 2023</p>
+				</footer>
 </body>
 </html>

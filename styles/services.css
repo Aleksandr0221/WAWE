@@ -1,0 +1,177 @@
+.services_mini-title {
+	display: flex;
+	justify-content: center;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 0 0 36px 0;
+}
+
+.services_work {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bitter', serif;
+	text-align: center;
+	font-size: 55px;
+	font-weight: 500;
+	padding: 0 0 60px 0;
+}
+
+.services_possibility {
+	display: flex;
+	justify-content: center;
+	font-family: 'Merriweather', serif;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0 0 50px 0;
+}
+
+.search-sale {
+	display: flex;
+	padding: 0 0 78px 0;
+	}
+
+.one {
+	width: 500px;
+	flex-direction: column;
+	margin: 0 0 0 40px;
+}
+
+.two {
+	margin: 0 0 0 200px;
+	}
+
+.search {
+	width: 500px;
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0 0 40px 0;
+}
+
+.sale {
+	width: 490px;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.help {
+	width: 500px;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.purchase {
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0 0 40px 0;
+	}
+
+	.rental-management {
+		display: flex;
+		padding: 0 0 78px 0;
+	}
+
+	.rental {
+		width: 500px;
+		font-family: 'Bitter', serif;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0 0 40px 0;
+	}
+	
+	.conclusion {
+		width: 490px;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.management {
+		font-family: 'Bitter', serif;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0 0 40px 0;
+	}
+
+	.control {
+		width: 500px;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+.consultation-mortgage {
+	display: flex;
+	padding: 0 0 78px 0;
+	}
+
+	.consultation {
+		font-family: 'Bitter', serif;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0 0 40px 0;
+	}
+
+	.advice {
+		width: 500px;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.mortgage {
+		font-family: 'Bitter', serif;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0 0 40px 0;
+	}
+
+	.credit {
+		width: 500px;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.work-documents {
+		display: flex;
+		padding: 0 0 90px 0;
+	}
+
+	.work {
+		font-family: 'Bitter', serif;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 0 0 40px 0;
+	}
+	.documents {
+		width: 500px;
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.services-button {
+		display: flex;
+		justify-content: center;
+		padding: 0 0 80px 0;
+	}
+
+	.btn-services {
+		width: 280px;
+		height: 45px;
+		align-items: center;
+		font-family: 'Bitter', serif;
+		font-size: 18px;
+		font-weight: 100;
+		cursor: pointer;
+		}
+
+		.btn-services:hover {
+			color: brown;
+		}

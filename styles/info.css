@@ -1,0 +1,64 @@
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 80px 0;
+}
+
+.info__title {
+
+	width: 822px;
+	font-family: Bitter;
+	font-weight: 600;
+	font-size: 55px;
+	text-align: center;
+	padding: 0 0 36px 0;
+	color: #000000;
+}
+
+.info__description-help {
+	width: 715px;
+	padding: 0 0 40px 0;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	color: #000000;
+}
+
+.info__description-superpower {
+	width: 715px;
+	padding: 0 0 40px 0;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	color: #000000;
+}
+
+.info__description-deliver {
+	width: 715px;
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	color: #000000;
+	padding: 0 0 80px 0;
+}
+
+.info__image {
+	padding: 0 0 90px 0;
+}
+
+.info__button {
+	width: 240px;
+	height: 45px;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+}
+
+.info__button:hover {
+	color: brown;
+}

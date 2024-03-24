@@ -1,0 +1,138 @@
+.reviews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 0 80px 0;
+}
+
+.reviews__customers {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+}
+
+.reviews__about-me {
+	width: 823px;
+	font-family: Bitter;
+	font-weight: 600;
+	font-size: 55px;
+	text-align: center;
+	color: #000000;
+	padding: 0 0 36px 0;
+}
+
+.reviews__customers-wrapper-antonov {
+	position: relative;
+	width: 360px;
+	height: 240px;
+	background-color: #D9D9D9;
+}
+
+.reviews_name-antonov {
+	position: absolute;
+	font-family: Merriweather;
+	font-weight: 300;
+	font-size: 12px;
+	color: #000000;
+	top: 34px;
+	left: 72px;
+}
+
+.reviews__image-antonov {
+	width: 60px;
+	height: 60px;
+	padding: 12px 0 22px 0;
+}
+
+.reviews__description {
+	width: 352px;
+  height: 76px;
+	font-family: Bitter;
+	font-weight: 100;
+	font-size: 16px;
+	color: #000000;
+}
+
+.reviews__customers-wrapper-loginov {
+	position: relative;
+	width: 360px;
+	height: 240px;
+	background-color: #D9D9D9;
+}
+
+.reviews_name-loginov {
+	position: absolute;
+	font-family: Merriweather;
+	font-weight: 300;
+	font-size: 12px;
+	color: #000000;
+	top: 34px;
+	left: 72px;
+}
+
+.reviews__image-loginov {
+	width: 60px;
+	height: 60px;
+	padding: 12px 0 22px 0;
+}
+
+.reviews__description {
+	width: 352px;
+  height: 76px;
+	font-family: Bitter;
+	font-weight: 100;
+	font-size: 16px;
+	color: #000000;
+}
+
+.reviews__customers-wrapper-petrova {
+	position: relative;
+	width: 360px;
+	height: 240px;
+	background-color: #D9D9D9;
+}
+
+.reviews_name-petrova {
+	position: absolute;
+	font-family: Merriweather;
+	font-weight: 300;
+	font-size: 12px;
+	color: #000000;
+	top: 34px;
+	left: 72px;
+}
+
+.reviews__image-petrova {
+	width: 60px;
+	height: 60px;
+	padding: 12px 0 22px 0;
+}
+
+.reviews__description {
+	width: 352px;
+  height: 76px;
+	font-family: Bitter;
+	font-weight: 100;
+	font-size: 16px;
+	color: #000000;
+}
+
+.reviews__star-antonov {
+	position: absolute;
+	top: 202px;
+	left: 196px;
+}
+
+.reviews__star-loginov {
+	position: absolute;
+	top: 202px;
+	left: 196px;
+}
+
+.reviews__star-petrova {
+	position: absolute;
+	top: 202px;
+	left: 196px;
+}

@@ -1,0 +1,71 @@
+.hero_icon-property {
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+.icon-property {
+	width: 16px;
+	height: 16px;
+	color: black;
+}
+
+h5 {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0 0 0 20px;
+}
+
+.hero_icon-property, h5 {
+	padding-bottom: 40px;
+}
+.hero_title {
+	width: 1200px;
+	text-align: center;
+	display: flex;
+	font-size: 96px;
+	font-weight: 100;
+	justify-content: center;
+	padding: 0 0 60px 0;
+	 }
+
+	 .hero_name {
+		display: flex;
+		justify-content: center;
+		width: 490px;
+		height: 100px;
+		font-family: 'Merriweather', serif;
+		font-size: 24px;
+		font-weight: 300;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+	 }
+
+	 .photo {
+		width: 460px;
+		height: 615px;
+		margin-left: 360px;
+		padding: 0 0 90px 0;
+	 }
+	 .hero_button {
+		display: flex;
+		justify-content: center;
+		padding: 0 0 80px 0;
+		
+		}
+
+		.btn-hero {
+			width: 200px;
+			height: 45px;
+			font-family: 'Bitter', serif;
+			font-size: 18px;
+			font-weight: 100;
+			cursor: pointer;
+		}
+
+		.btn-hero:hover {
+			color: brown;
+		}

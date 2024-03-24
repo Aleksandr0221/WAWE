@@ -1,0 +1,137 @@
+.catalog {
+	display: flex;
+}
+
+.catalog__title {
+	display: flex;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	font-weight: 300;
+	justify-content: center;
+	padding: 0 0 36px 0;
+}
+
+.catalog__sub-title {
+	font-family: 'Bitter', serif;
+	font-size: 55px;
+	font-weight: 500;
+	text-align: center;
+	padding: 0 0 60px 0;
+}
+
+.btn-catalog {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 60px 0;
+}
+
+.catalog__btn-purchase {
+	width: 120px;
+	height: 40px;
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+}
+
+.catalog__btn-rent {
+	width: 120px;
+	height: 40px;
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	background-color: #fff;
+}
+
+.catalog__image {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 90px 0;
+
+}
+
+.catalog__image-one {
+	width: 360px;
+	height: 258px;
+}
+
+
+
+.catalog__house-one {
+	width: 100%;
+	padding: 0 0 26px 0;
+}
+
+.catalog__house-one:hover {
+	transform: scale(1.1);
+}
+
+.catalog__image-two {
+	width: 360px;
+	height: 258px;
+}
+
+.catalog__house-two {
+	width: 100%;
+	padding: 0 0 26px 0;
+}
+
+.catalog__house-two:hover {
+	transform: scale(1.1);
+}
+
+.catalog__image-three {
+	width: 360px;
+	height: 258px;
+}
+
+.catalog__house-three {
+	width: 100%;
+	padding: 0 0 26px
+}
+
+.catalog__house-three:hover {
+	transform: scale(1.1);
+}
+
+.catalog__min-title {
+	font-family: 'Bitter', serif;
+	font-size: 25px;
+	font-weight: 500;
+	padding: 0 0 10px 0;
+}
+
+.catalog__description {
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 0 0 20px 0;
+}
+
+.catalog__litl-title {
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	color: #000;
+	opacity: 50%;
+
+}
+
+
+.button-catalog {
+	width: 200px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 120px 0 80px 496px;
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.button-catalog:hover {
+	color: brown;
+}
+
